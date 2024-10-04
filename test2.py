@@ -32,7 +32,7 @@ class savings(bank):
     def __init__(self, number, name, balance):
         super().__init__(number, name, balance)
 class checking(bank):
-    def __init__(self, number, name, balance, isLocked):
+    def __init__(self, number, name, balance):
             super().__init__(number, name, balance)
 
 acct1=checking("0", "John", 203)
